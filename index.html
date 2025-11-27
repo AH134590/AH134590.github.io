@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Automotive Inc.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>Best Automotive Inc.</span>
+    <span class="top-bar-contact">Call: (555) 123-4567 • Email: info@bestautomotive.com</span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="main-header">
+    <div class="logo">Best Automotive Inc.</div>
+    <nav class="nav">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Appointments</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+  </header>
+
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#hero">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Appointments</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Premium Automotive Care You Can Trust</h1>
+      <p>
+        At Best Automotive Inc., we provide high-end maintenance, diagnostics, and repair
+        services to keep your vehicle running at its best.
+      </p>
+      <div class="hero-buttons">
+        <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <!-- Replace with your own car image in /images and update the src -->
+      <img src="images/hero-car.jpg" alt="Luxury car in a garage" />
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="section-header">
+      <h2>Our Services</h2>
+      <p>Professional, transparent, and reliable automotive services.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Diagnostics & Inspection</h3>
+        <p>Full system diagnostics to identify issues before they become costly problems.</p>
+      </div>
+      <div class="card">
+        <h3>Maintenance & Repair</h3>
+        <p>Oil changes, brakes, suspension, and more—handled with premium care.</p>
+      </div>
+      <div class="card">
+        <h3>Performance & Upgrades</h3>
+        <p>Enhancements for those who want their vehicle performing at the highest level.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="section section-alt">
+    <div class="section-header">
+      <h2>Book an Appointment</h2>
+      <p>Choose a time that works best for you.</p>
+    </div>
+
+    <div class="booking-wrapper">
+      <!-- TODO: Replace this button link with your real Calendly or booking link -->
+      <a href="https://calendly.com/" target="_blank" class="btn btn-primary big-btn">
+        Book Online via Calendly
+      </a>
+
+      <p class="booking-note">
+        Prefer to call? Reach us at <strong>(555) 123-4567</strong>.
+      </p>
+
+      <!-- If you later get an embed code from Calendly, paste it here: -->
+      <!--
+      <div class="booking-embed">
+        PASTE YOUR CALENDLY EMBED CODE HERE
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section">
+    <div class="section-header">
+      <h2>Customer Reviews</h2>
+      <p>See what our clients say about Best Automotive Inc.</p>
+    </div>
+
+    <div class="reviews-layout">
+      <div class="reviews-cards">
+        <!-- Static sample reviews (you can edit these) -->
+        <div class="review-card">
+          <p class="review-text">
+            "Best experience I've ever had at an automotive shop. Professional, fast, and honest."
+          </p>
+          <p class="review-name">— John D.</p>
+        </div>
+        <div class="review-card">
+          <p class="review-text">
+            "They treated my car like it was their own. Highly recommended for premium service."
+          </p>
+          <p class="review-name">— Sarah K.</p>
+        </div>
+        <div class="review-card">
+          <p class="review-text">
+            "Transparent pricing and great communication throughout the entire process."
+          </p>
+          <p class="review-name">— Michael R.</p>
+        </div>
+      </div>
+
+      <div class="reviews-embed">
+        <!-- TODO: Replace this with your Google Reviews or Trustpilot widget HTML -->
+        <div class="embed-placeholder">
+          <p>
+            Want live reviews? Paste your <strong>Google Reviews</strong> or
+            <strong>Trustpilot</strong> embed code here.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section section-alt">
+    <div class="section-header">
+      <h2>Gallery</h2>
+      <p>A look at some of the vehicles we've worked on.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- Replace these with your own images in /images -->
+      <img src="images/gallery1.jpg" alt="Car service 1" />
+      <img src="images/gallery2.jpg" alt="Car service 2" />
+      <img src="images/gallery3.jpg" alt="Car service 3" />
+      <img src="images/gallery4.jpg" alt="Car service 4" />
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out and we’ll get back to you as soon as possible.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h3>Best Automotive Inc.</h3>
+        <p>123 Premium Drive<br />Your City, ST 12345</p>
+        <p>Phone: <strong>(555) 123-4567</strong></p>
+        <p>Email: <strong>info@bestautomotive.com</strong></p>
+        <p>Hours: Mon–Fri, 9:00 AM – 6:00 PM</p>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <!-- Option A: Simple HTML form (Netlify/other services can capture this) -->
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <!-- Option B: If you prefer Google Forms, you can paste the embed instead of this form -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Best Automotive Inc.</div>
+        <p>Premium automotive service and care you can rely on.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>123 Premium Drive<br />Your City, ST 12345</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Email: info@bestautomotive.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#booking">Book Appointment</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Best Automotive Inc. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
