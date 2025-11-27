@@ -23,7 +23,8 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: auto;
+    width: 80px
 }
 
 nav a {
@@ -47,9 +48,9 @@ nav a.active {
 }
 
 /* HERO */
-.hero {
+.hero-banner {
     padding: 120px 40px;
-    background: url('images/hero-banner.jpg') center/cover no-repeat;
+    background-image: url("images/hero-banner.jpg") center/cover no-repeat;
     text-align: left;
 }
 
