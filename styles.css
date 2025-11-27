@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #111;
+    background-color: #333333;
     border-bottom: 1px solid #222;
 }
 
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    height: 55px;
+    height: 80px;
 }
 
 nav a {
@@ -49,7 +49,7 @@ nav a.active {
 /* HERO */
 .hero {
     padding: 120px 40px;
-    background: url('images/hero-car.jpg') center/cover no-repeat;
+    background: url('hero-banner.jpg') center/cover no-repeat;
     text-align: left;
 }
 
