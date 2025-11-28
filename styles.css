@@ -58,29 +58,42 @@ nav a.active {
 }
 
 /* Left text area */
-.hero-text {
-    width: 40%;
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 20px;
+  background-color: #121212; /* or whatever background you want behind text */
 }
 
-.hero-text h2 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.hero-content {
+  flex: 1 1 40%; /* take up ~40% (left side) */
+  color: #e4e4e4; /* text color */
 }
 
-.hero-text p {
-    font-size: 20px;
-    margin-bottom: 25px;
+.hero-content h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
-/* Right image */
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
 .hero-image {
-    width: 60%;
+  flex: 1 1 55%; /* image takes ~55% (right side) */
 }
 
 .hero-image img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px; /* optional, for rounded corners */
 }
+
 
 /* Button */
 .book-cta {
