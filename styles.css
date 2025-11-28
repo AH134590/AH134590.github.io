@@ -50,11 +50,13 @@ nav a.active {
 /* HERO */
 .hero-banner {
     padding: 120px 40px;
-    background: url("images/hero-banner.jpg") center/cover no-repeat;
+    background-image: url("images/hero-banner.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     text-align: left;
 }
+
 
 
 .hero h2 {
