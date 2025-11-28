@@ -48,50 +48,43 @@ nav a.active {
 }
 
 /* HERO */
-/* HERO SECTION */
+/* HERO (new height-controlled hero section) */
 .hero-banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 40px;
-    color: white;
-}
-
-/* Left text area */
-.hero-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px 40px;
-  gap: 20px;
-  background-color: #121212; /* or whatever background you want behind text */
+    padding: 40px 40px;
+    gap: 20px;
+    height: 350px; /* <<-- THIS is the new shorter height */
+    overflow: hidden; /* keeps image inside */
 }
 
 .hero-content {
-  flex: 1 1 40%; /* take up ~40% (left side) */
-  color: #e4e4e4; /* text color */
+    flex: 1 1 40%;
 }
 
 .hero-content h2 {
-  font-size: 48px;
-  margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 .hero-content p {
-  font-size: 20px;
-  margin-bottom: 25px;
-  max-width: 500px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 450px;
 }
 
 .hero-image {
-  flex: 1 1 55%; /* image takes ~55% (right side) */
+    flex: 1 1 55%;
+    height: 100%; /* controls vertical size */
 }
 
 .hero-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 6px; /* optional, for rounded corners */
+    width: 100%;
+    height: 60%;      /* ← makes image about 40% shorter */
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;   /* removes weird spacing issues */
 }
 
 
