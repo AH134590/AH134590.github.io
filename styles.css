@@ -24,7 +24,7 @@ header {
 
 .logo {
     height: auto;
-    width: 80px
+    width: 120px;
 }
 
 nav a {
@@ -50,9 +50,12 @@ nav a.active {
 /* HERO */
 .hero-banner {
     padding: 120px 40px;
-    background-image: url("images/hero-banner.jpg") center/cover no-repeat;
+    background: url("images/hero-banner.jpg") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
     text-align: left;
 }
+
 
 .hero h2 {
     font-size: 48px;
