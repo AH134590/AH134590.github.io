@@ -139,3 +139,69 @@ footer {
     text-align: center;
     border-top: 1px solid #222;
 }
+
+
+/* ========== MOBILE RESPONSIVE FIXES ========== */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    /* HERO SECTION STACKING */
+    .hero-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        flex: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+        flex: none;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        max-height: 280px; /* Prevents HUGE vertical images on mobile */
+        object-fit: cover;
+    }
+
+    /* GALLERY */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* REVIEWS */
+    .reviews-placeholder {
+        height: 120px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 30px 15px;
+        font-size: 14px;
+    }
+}
